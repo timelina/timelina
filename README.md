@@ -18,7 +18,7 @@
 
 Now instead of ng serve we build and run like so:
 1.3. Build project    
-    npm run build:prod
+    sudo npm run build:prod
 
 1.4. Run project locally.
     npm run server
@@ -28,7 +28,7 @@ Now instead of ng serve we build and run like so:
 1.6. Adding 2nd package which allows deploy project to firebase (aws).
     ng add @ng-toolkit/serverless --provider firebase --firebaseProject timelinacom
     
-1.7. Run deployment process.
+1.7. Run deployment process to Firebase
     sudo npm run build:prod:deploy
 
 
@@ -36,4 +36,27 @@ Now instead of ng serve we build and run like so:
 
 
 2. Add Angular Material and make base design pattern with navigation and dashboard.
+2.1. Add Material
+    ng add @angular/material
+
+2.2. Create separate module for material in the file app-material.module.ts 
+
+    import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+    import { NgModule } from '@angular/core';
+
+    @NgModule({
+    imports: [MatButtonModule, MatCheckboxModule],
+    exports: [MatButtonModule, MatCheckboxModule],
+    })
+    export class AppMaterialModule { }
+
+2.3. Using schematics add navigation
+    ng generate @angular/material:nav nav --module app.module.ts
+
+Move all imports of Mat...Module from app.module.ts to app-material.module.ts
+
+2.4. Using schematics add dasboard/home
+    ng generate @angular/material:dashboard home --module app.module.ts
+
+
 
