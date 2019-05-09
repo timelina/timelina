@@ -1,0 +1,31 @@
+{
+  "universal": {
+    "clientProject": "timelinacom",
+    "skipInstall": false,
+    "http": true,
+    "appId": "serverApp",
+    "main": "main.server.ts",
+    "serverFileName": "server.ts",
+    "serverPort": 4000,
+    "tsconfigFileName": "tsconfig.server",
+    "testTsconfigFileName": "tsconfig.spec",
+    "appDir": "app",
+    "rootModuleFileName": "app.server.module.ts",
+    "rootModuleClassName": "AppServerModule",
+    "skipServer": false,
+    "skipUniversal": false,
+    "webpack": true
+  },
+  "serverless": {
+    "provider": "firebase",
+    "firebaseProject": "timelinacom",
+    "project": "timelinacom",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "timelinacom",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
