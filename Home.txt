@@ -1,0 +1,76 @@
+1. Restaurant
+
+2nd place in Yelp for 60089
+
+Name        Peri Peri
+
+url:        http://www.myperiperi.com
+
+Platform:   WordPress
+
+Secure:     Not Secure
+
+Page speed: 61 mobile
+            83 desktop
+
+Menu: converting to simple select elelement for mobile version. Ugly and not modern.
+When you open such a menu on the smartphone there 6 items 
+
+More then half of page placed image in the center ~600 Kb with dimension 1920 by horizontal!
+Why? It's heavy and useless
+
+Top menu disappers while scrolling page on both on Mobile and destop.
+
+Really bad thing is 404 error by clicking first button on the page "discover our story"!
+
+Our menu page page in mobile veriosn doesn't contain left menu about Menu's sections 
+which exists  in desktop version.
+Should restaurant meny contains prices?
+
+Another one image just taking space and not reactive is one on the 
+catering page. Does nothing. Catering menu sitting under PDF file. How sad it is!
+
+Locations.
+DOORDASH Order online button over locations buttons just doen't work! 
+There are also order online buttons under each location. But it doesn't make any sense 
+have them there! 
+Phone numbers are not active.
+Address is also not activated as is.
+
+In general - No images about intereier or dishes. No blog, Google+ was depriciated.
+Yelp! link goes to Skokie IL branch which is marked as closed location. Double check.
+
+in general the site for restaurant with more then 10 branches in 3 states site 
+with above issues looks cheep and not cool at all. 
+
+
+2. Car
+
+1st place in Yelp for 60089
+            Advanced VTech
+
+            http://www.advancedvtech.com/
+
+Platform:   Wix
+
+Secure:     Not Secure
+
+Page speed: 36 mobile
+            73 desktop
+  
+Errors:     2 errors and 3 warnings
+
+Responsive: not
+
+Awful awful design and mobile version. Even on desktop version phont is hard to read and 
+colors selection, size, color everything looks bad. different styles for buttons, 
+some 3rd party logos which are not the links and small. Site looks like mid 90ties 
+production.
+
+
+3. Home
+
+
+4. Personal
+
+

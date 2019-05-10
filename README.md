@@ -58,5 +58,14 @@ Move all imports of Mat...Module from app.module.ts to app-material.module.ts
 2.4. Using schematics add dasboard/home
     ng generate @angular/material:dashboard home --module app.module.ts
 
+3. Menu development
+3.1. About
+
+3.2. Service
+
+3.3. Price
+
+
+
 
 
